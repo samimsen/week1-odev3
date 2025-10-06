@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ana Sayfa</title>
+    <style>
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 10px 0;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .nav-menu li {
+            margin: 0 15px;
+        }
+
+        .nav-menu a {
+            color: #2c3e50;
+            font-weight: 500;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .nav-menu a:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        section h1,
+        h2 {
+            text-align: center;
+        }
+
+        section ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        body {
+            background-color: antiquewhite;
+            color: #2c3e50;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .services-list li {
+            text-align: start;
+            width: 350px;
+        }
+
+        p {
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkinda.html">Hakkında</a></li>
+                <li><a href="servisler.html">Servisler</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Hoş Geldiniz!</h1>
+        <img src="images/rehber.jpeg" alt="Rehber görseli" width="300">
+
+        <p>
+            Bu web sitesi, şehirleri, mekanları ve günlük yaşamda ihtiyaç duyabileceğiniz bilgileri tek bir yerde
+            toplamak amacıyla hazırlanmıştır. Ziyaretçilerimiz, farklı konularda rehber niteliğinde içeriklere
+            kolayca ulaşabilir ve kendilerine en uygun seçenekleri keşfedebilir.
+        </p>
+
+        <p>
+            Amacımız, hem yerel halk hem de turistler için güvenilir ve güncel bilgiler sunmak. Bu sayede
+            şehirlerde kaybolma endişesi yaşamadan, en iyi deneyimleri yaşayabilir ve planlarını rahatlıkla
+            oluşturabilirler.
+        </p>
+
+        <p>
+            Sitemizde ayrıca ipuçları, öneriler ve popüler destinasyonlar ile ilgili rehberler bulabilirsiniz.
+            Her bölüm, kullanıcı dostu bir şekilde tasarlanmış ve görsellerle desteklenmiştir.
+            Keşfetmeye başlamak için aşağıdaki listeden ilginizi çeken konuyu seçebilirsiniz.
+        </p>
+
+        <h2>Site Üzerinde Bulabilecekleriniz</h2>
+        <ul class="services-list">
+            <li>Şehirler ve bölgeler hakkında detaylı bilgiler</li>
+            <li>En popüler restoran ve kafeler</li>
+            <li>Müzeler, parklar ve kültürel etkinlikler</li>
+            <li>Ulaşım rehberleri ve toplu taşıma bilgileri</li>
+            <li>Konaklama seçenekleri ve tavsiyeler</li>
+            <li>Güncel etkinlikler ve aktiviteler</li>
+        </ul>
+    </section>
+</body>
+
+</html>
